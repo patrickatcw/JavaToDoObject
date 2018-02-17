@@ -23,15 +23,15 @@ public class ToDo {
         return this.wake;
     }
 
-    public String getNext(){
+    public String getNext() {
         return this.next;
     }
 
     public String getWork() {
-        return work;
+        return this.work;
     }
 
-    public void setLunch(String lunch) {
-        this.lunch = lunch;
+    public String getLunch() {
+        return this.lunch;
     }
 }
